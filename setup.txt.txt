@@ -1,0 +1,15 @@
+Pasos para ejecutar el programa.
+
+-Abrir el archivo ".env" y configurar los detalles de tu base de datos:
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=nombre_de_tu_base_de_datos
+DB_USERNAME=tu_usuario_de_base_de_datos
+DB_PASSWORD=tu_contraseña_de_base_de_datos
+
+-Ejecutar las migraciones de la base de datos con el comando:
+php artisan migrate
+
+-Iniciar el servidor y listo:
+php artisan serve
